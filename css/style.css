@@ -1,0 +1,85 @@
+.logo h1{
+	background: url(../img/coffee.jpeg) no-repeat; 
+	text-indent: -9999px;
+	width: 225px;
+	height: 225px;
+	float: left;
+}
+
+body{
+	margin: auto;
+	width: 700px;
+	font-family: sans-serif;
+	color: #989b9b;
+	border: solid;
+}
+.wrap:after{
+	background-color: grey;
+}
+
+.body{
+	float: right;
+	width: 400px;
+
+}
+
+a{
+	text-decoration: none;
+}
+
+.meta{
+	padding-left: 0;
+	color: #464747;
+}
+
+.meta a:after{
+	content: ' \\';
+}
+
+.meta li:last-child:after{
+	content: none;
+}
+
+.meta li{
+	display: inline;
+}
+
+.post_info{
+	background-color: #c4c5c6;
+	float: left;
+	fo
+}
+
+
+a{
+	color: grey;
+	font-style: italic;
+}
+
+h2{
+	color: black;
+	font-size: 25px;
+	padding-bottom: -3px;
+}
+
+a, p{
+	font-size: 14px;
+	color: #464747;
+}
+
+.para{
+	clear: both;
+}
+
+a:hover{
+	color: black;
+	font-size: 18px;
+}
+
+.link:after{
+	content: ')';
+}
+
+.link:before{
+	content: '(';
+}
