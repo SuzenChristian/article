@@ -1,3 +1,7 @@
+*{
+	background : transparent;
+}
+
 .logo h1{
 	background: url(../img/coffee.jpeg) no-repeat; 
 	text-indent: -9999px;
@@ -13,8 +17,8 @@ body{
 	color: #989b9b;
 	border: solid;
 }
-.wrap:after{
-	background-color: grey;
+.wrap{
+	background-color: grey !important;
 }
 
 .body{
